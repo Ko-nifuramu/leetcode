@@ -10,7 +10,7 @@
 
 ### Atari60(繰り返しやるやつ)
 
-### Others
+#### Others
 - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)
 
 
