@@ -9,5 +9,7 @@
 #   generate-hashes: false
 
 -e file:.
+collection==0.1.6
+    # via leetcode
 typing==3.7.4.3
     # via leetcode
