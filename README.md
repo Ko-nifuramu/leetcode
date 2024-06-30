@@ -13,6 +13,9 @@
 #### Dynamic Programming
 - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)
 
+#### Greedy BackTracking
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/description/)
+
 #### Others
 - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)
 
