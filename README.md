@@ -10,8 +10,13 @@
 
 ### Atari60(繰り返しやるやつ)
 
+
+#### Tree, BST
+- [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+
 #### Dynamic Programming
 - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)
+- [139. Word Break](https://leetcode.com/problems/word-break/description/)
 
 #### Greedy BackTracking
 - [39. Combination Sum](https://leetcode.com/problems/combination-sum/description/)
