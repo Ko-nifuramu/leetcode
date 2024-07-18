@@ -19,6 +19,9 @@
 - [139. Word Break](https://leetcode.com/problems/word-break/description/)
 - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
 
+#### Binary Search
+- [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
 #### Greedy BackTracking
 - [39. Combination Sum](https://leetcode.com/problems/combination-sum/description/)
 
