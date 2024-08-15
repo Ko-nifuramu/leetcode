@@ -1,7 +1,7 @@
 from typing import List
 
 
-#コードが来たなすぎる
+#コードが汚なさすぎる
 #time: O(N)
 #space: O(1)
 class Solution:
