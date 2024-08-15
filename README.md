@@ -11,22 +11,36 @@
 ### Atari60(繰り返しやるやつ)
 
 
+#### LinkedList
+
+#### Stack
+
+##### Heap, PriorityQueue
+##### HashMap
+##### Graph, BFS, DFS
+
 #### Tree, BST
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 #### Dynamic Programming
-- [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)
-- [139. Word Break](https://leetcode.com/problems/word-break/description/)
+- [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+- [139. Word Break](https://leetcode.com/problems/word-break/)
 - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- [322. Coin Chaneg](https://leetcode.com/problems/coin-change/)
 
 #### Binary Search
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [1011. Capacity To Ship Packages Within D Days](ttps://leetcode.com/problems/capacity-to-ship-packages-within-d-days)
+
+
+#### Recursion
 
 #### Greedy BackTracking
-- [39. Combination Sum](https://leetcode.com/problems/combination-sum/description/)
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 
 #### Others
-- [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)
+- [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 
 
 ### Daily問題(毎日解くとは言ってない)
