@@ -26,11 +26,11 @@
 - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 - [139. Word Break](https://leetcode.com/problems/word-break/)
 - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
-- [322. Coin Chaneg](https://leetcode.com/problems/coin-change/)
+- [322. Coin Change](https://leetcode.com/problems/coin-change/)
 
 #### Binary Search
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [1011. Capacity To Ship Packages Within D Days](ttps://leetcode.com/problems/capacity-to-ship-packages-within-d-days)
+- [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)
 
 
 #### Recursion
