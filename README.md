@@ -12,12 +12,19 @@
 
 
 #### LinkedList
+- [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [141. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 #### Stack
+-[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ##### Heap, PriorityQueue
+
 ##### HashMap
+
 ##### Graph, BFS, DFS
+- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
 #### Tree, BST
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
@@ -30,6 +37,7 @@
 
 #### Binary Search
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 - [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)
 
 
