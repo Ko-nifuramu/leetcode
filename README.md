@@ -23,11 +23,13 @@
 ##### HashMap
 
 ##### Graph, BFS, DFS
-- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-- [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+- [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
 
 #### Tree, BST
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
 #### Dynamic Programming
 - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
