@@ -19,8 +19,11 @@
 -[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ##### Heap, PriorityQueue
+- [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 
 ##### HashMap
+- [1. Two Sum](https://leetcode.com/problems/two-sum/)
+- [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
 ##### Graph, BFS, DFS
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
@@ -32,6 +35,7 @@
 - [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
 #### Dynamic Programming
+- [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 - [139. Word Break](https://leetcode.com/problems/word-break/)
 - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
