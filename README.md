@@ -18,14 +18,14 @@
 #### Stack
 -[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-##### Heap, PriorityQueue
+#### Heap, PriorityQueue
 - [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 
-##### HashMap
+#### HashMap
 - [1. Two Sum](https://leetcode.com/problems/two-sum/)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
-##### Graph, BFS, DFS
+#### Graph, BFS, DFS
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
 
