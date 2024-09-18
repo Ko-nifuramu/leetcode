@@ -40,8 +40,6 @@ class Solution:
         left = 0
         max_len = 0
         seen_index = {}
-        max_len = 0
-        left = 0
         for right, c in enumerate(s):
             if c in seen_index and left <= seen_index[c]:
                 left = seen_index[c]+1
@@ -69,4 +67,53 @@ class Solution:
             seen_index.add(s[right])
             max_len = max(max_len, right-left+1)
             right += 1
+        return max_len
+
+''''
+step2:
+approach1:  left, right index + hashmap -> O(N^2), O(N)
+approach2:  sliding window-> O(N), O(N)
+'''
+
+#dictを使っているけど、その必要はない.一番最後に出てきた時のindexを保持すれば良い
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        char_map = defaultdict(list)
+        max_len_substring = 0
+        left_index = 0
+        for index, c in enumerate(s):
+            if len(char_map[c])>=1 and char_map[c][-1]>=left_index:
+                max_len_substring = max(max_len_substring, index-left_index)
+                left_index = char_map[c][-1]+1
+            char_map[c].append(index)
+        max_len_substring = max(max_len_substring, len(s)-left_index)
+        return max_len_substring
+
+#所要時間: 2:14
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        char_index = {}
+        left_index = 0
+        max_len = 0
+        for right_index, c in enumerate(s):
+            if c in char_index and char_index[c]>=left_index:
+                max_len = max(right_index - left_index, max_len)
+                left_index = char_index[c]+1
+            char_index[c] = right_index
+            
+        max_len = max(len(s)-left_index, max_len)             
+        return max_len
+    
+#毎回更新する方法もあるけど、こっちの方がその分遅い
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        char_index = {}
+        max_len = 0
+        left = 0
+        for right, c in enumerate(s):
+            if c in char_index and char_index[c]>=left:
+                left = char_index[c]+1
+            char_index[c] = right
+            max_len = max(right-left+1, max_len)
+        
         return max_len
