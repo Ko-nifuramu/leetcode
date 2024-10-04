@@ -2,15 +2,15 @@ from typing import List
 from collections import defaultdict
 
 
-
 """
 step1:
 approach1: calculate the summation of each elements, so we have to traverse the array of list 'nums' twice
 approach2: Use hashmap to store the summation
 """
 
-#time: O(N)
-#space: O(N)
+
+# time: O(N)
+# space: O(N)
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         sum_map = defaultdict(int)
@@ -25,8 +25,9 @@ class Solution:
 
         return num_of_sum_k
 
-#time: O(N)
-#space: O(N)
+
+# time: O(N)
+# space: O(N)
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         sum_freq = defaultdict(int)
@@ -38,3 +39,25 @@ class Solution:
             count += sum_freq[sum_val - k]
             sum_freq[sum_val] += 1
         return count
+
+
+"""
+step1
+"""
+
+#time: O(N)
+#space: O(N)
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        cum_sum_map = defaultdict(int)
+        num_of_subarray = 0
+        cum_sum_map[0] = 1
+        cum_sum = 0
+        for num in nums:
+            cum_sum += num
+            remaining = cum_sum - k
+            if remaining in cum_sum_map:
+                num_of_subarray += cum_sum_map[remaining]
+            cum_sum_map[cum_sum] += 1
+        
+        return num_of_subarray
