@@ -94,3 +94,44 @@ class Solution:
         
         check_word_break(s)
         return can_word_break
+    
+
+'''
+step2
+'''
+#TLE
+#time: O(len(s)*len(wordDict))
+#space: O()
+#time: O(len(s)*len(wordDict)*len(word))
+#space: O()
+class Solution:
+    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        can_break = False
+        def check_word_break(remaininig_s):
+            nonlocal can_break
+            if len(remaininig_s) == 0:
+                can_break = True
+
+            for word in wordDict:
+                if remaininig_s[:len(word)] == word:
+                    check_word_break(remaininig_s[len(word):])
+            
+
+        check_word_break(s)
+        return can_break
+
+#Dynamic Programming
+#time: O(N^2) N= len(s)
+#space: O(len(wordDict) + len(s))
+class Solution:
+    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        word_break_possible = [False]*(len(s)+1)
+        word_break_possible[0] = True
+
+        word_set = set(wordDict)
+        for end in range(len(s)+1):
+            for start in range(end):
+                if s[start:end] in word_set and word_break_possible[start]:
+                    word_break_possible[end] = True
+        
+        return word_break_possible[-1]

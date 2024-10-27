@@ -104,3 +104,32 @@ class Solution:
                     right = middle - 1
                     
         return -1
+    
+"""
+step2
+"""
+#time: O(logN)
+#sapce: O(1)
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        '''
+        1,2,3,4,5,6,7,8,9 -> 6,7,8,9,1,2,3,4,5
+        '''
+
+        left = 0
+        right = len(nums) - 1
+        while left <= right:
+            middle = (left + right) // 2
+            if nums[middle] == target:
+                return middle
+            elif nums[middle] >= nums[left]:
+                if nums[left] <= target < nums[middle]:
+                    right = middle-1
+                else:
+                    left = middle+1
+            else:
+                if nums[middle] < target <= nums[right]:
+                    left = middle+1
+                else:
+                    right = middle-1
+        return -1                
