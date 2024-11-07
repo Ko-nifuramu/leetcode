@@ -2,7 +2,7 @@
 
 
 ## やること
-- [arai60](https://1kohei1.com/leetcode/)(araiさんという方がおすすめ問題を挙げて依頼してらので参考にさせてもらっています。)
+- [arai60](https://1kohei1.com/leetcode/)(araiさんという方がおすすめ問題を挙げていらしたので参考にさせてもらっています。)
 - daily問題(やる気が出れば)
 
 
