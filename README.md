@@ -1,9 +1,9 @@
-# LeetCodeでアルゴリズムの基礎と実装力
+# LeetCodeでアルゴリズムの基礎と実装力を練習
 
 
 ## やること
 - [arai60](https://1kohei1.com/leetcode/)(araiさんという方がおすすめ問題を挙げて依頼してらので参考にさせてもらっています。)
-- daily問題(余裕があれば)
+- daily問題(やる気が出れば)
 
 
 
@@ -60,4 +60,4 @@
 
 ### Daily問題(毎日解くとは言ってない)
 - [75. Sort Colors](https://leetcode.com/problems/sort-colors/?envType=daily-question&envId=2024-06-12)
-- [2275. Largest Combination With Bitwise AND Greater Than Zero(https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)]
+- [2275. Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)]
