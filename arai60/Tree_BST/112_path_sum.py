@@ -73,3 +73,37 @@ class Solution:
                 return True
         
         return self.hasPathSum(root.left, targetSum - root.val) or self.hasPathSum(root.right, targetSum - root.val)
+    
+    
+"""
+step2
+"""
+class Solution:
+    def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+        if not root:
+            return False
+        if not(root.left or root.right):
+            return targetSum == root.val
+        
+        return  self.hasPathSum(root.left, targetSum - root.val) or self.hasPathSum(root.right, targetSum - root.val)
+
+
+
+
+#dfs
+class Solution:
+    def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+        if not root:
+            return False
+        node_sum_stack = [(root, root.val)]
+        has_path = False
+        while node_sum_stack:
+            node, sum_path = node_sum_stack.pop()
+            if not(node.left or node.right):
+                has_path = has_path or (sum_path == targetSum)
+            if node.left:
+                node_sum_stack.append((node.left, sum_path + node.left.val))
+            if node.right:
+                node_sum_stack.append((node.right, sum_path + node.right.val))
+        
+        return has_path
