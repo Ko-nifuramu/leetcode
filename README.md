@@ -60,4 +60,6 @@
 
 ### Daily問題(毎日解くとは言ってない)
 - [75. Sort Colors](https://leetcode.com/problems/sort-colors/?envType=daily-question&envId=2024-06-12)
-- [2275. Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)]
+- [2275. Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/)
+- [1975. Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/description/)
+-[3254. Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/)
