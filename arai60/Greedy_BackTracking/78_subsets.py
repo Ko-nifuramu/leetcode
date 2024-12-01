@@ -88,3 +88,44 @@ class Solution:
             subsets.append(subset)
         return subsets
         
+
+'''
+step2
+'''
+
+#time: O(2^n)
+#space: O(2^n)
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        all_subsets = []
+        def make_subset_from_bitmask(bitmask):
+            subset = []
+            for index in range(len(nums)):
+                if (bitmask >> index) & 1:
+                    subset.append(nums[index])
+
+            return subset
+        
+        for bitmask in range(2**len(nums)):
+            subset = make_subset_from_bitmask(bitmask)
+            all_subsets.append(subset)
+        
+        return all_subsets
+
+
+#time: O(2^n)
+#space: O(2^n)
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        all_subsets = []
+        def make_subsets(current_subset, remaining_nums):
+            if remaining_nums == []:
+                all_subsets.append(current_subset)
+                return
+            
+            make_subsets(current_subset, remaining_nums[1:])
+            make_subsets(current_subset + [remaining_nums[0]], remaining_nums[1:])
+        
+        make_subsets([], nums)
+        return all_subsets
+        
