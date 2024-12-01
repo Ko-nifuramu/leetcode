@@ -51,3 +51,34 @@ class Solution:
             max_sum_subarray = max(max_sum_subarray_end_index, max_sum_subarray)
         
         return max_sum_subarray
+    
+
+
+"""
+step2
+"""
+
+
+#time: O(N)
+#space: O(N)
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        sum_subarray = [0]*len(nums)
+        sum_subarray[0] = nums[0]
+        for index in range(1, len(nums)):
+            sum_subarray[index] = max(nums[index], sum_subarray[index-1]+nums[index])
+
+        return max(sum_subarray)   
+    
+
+#time: O(N)
+#space: O(N)
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        max_subarray_end_index = nums[0]
+        max_subarray = nums[0]
+        for num in nums[1:]:
+            max_subarray_end_index = max(num, max_subarray_end_index + num)
+            max_subarray = max(max_subarray_end_index, max_subarray)
+        
+        return max_subarray    
